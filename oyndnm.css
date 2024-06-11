@@ -2,7 +2,7 @@
 
 /* top */
 #top{
-    position: absolute;
+    position: relative;
     height: 20px;
     width: 20px;
     border-radius: 50px ;
@@ -13,10 +13,21 @@
 
 
 
-/* çubuk  */
-#cubuk{
+
+
+/* cubuğun oynayabileceği alan */
+#cubukalanı{
     position: absolute;
-    bottom: 1px;
+    bottom: 100px;
+    width: 1510px;
+    height: 100px;
+    border: solid 2px blue;
+}
+
+
+/* çubuk  */
+#cubuk  {
+    position: relative;
     height: 15px;
     width: 150px;
     border-radius: 20px 20px 20px 20px;
